@@ -4,14 +4,14 @@ import Logo from "/cool care service logo.jpg"
 export default function Nav() {
   return (
     <div className='m-0 p-0 w-screen h-full overflow-hidden'>
-    <img src={Logo} alt="" />
     <div className='flex justify-between bg-blue-900'>
         <div>
-            LOGO
+            <img src={Logo} alt="" height={40} width={90} className="ml-10"/>
         </div>
         <div className='my-auto font-serif'>
             <h1 className="text-5xl font-bold`">Cool Care Service</h1>
         </div>
+
         <div className='p-4 pr-10'>
             <div className='font-bold text-lg'><ion-icon name="call-outline"></ion-icon> 9860732541</div>
             <div className='font-bold text-lg'><ion-icon name="call-outline"></ion-icon> 9808589912</div>
