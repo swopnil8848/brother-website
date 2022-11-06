@@ -1,15 +1,14 @@
-import React from "react"
-import Home from "./Home"
-import Nav from "./Nav"
-
+import React from "react";
+import Home from "./Home";
+import Nav from "./Nav";
 
 function App() {
   return (
     <div>
-      <Nav/>
-      <Home/>
+      <Nav />
+      <Home />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
