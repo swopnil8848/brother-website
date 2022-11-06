@@ -1,8 +1,10 @@
 import React from 'react'
+import Logo from "/cool care service logo.jpg"
 // import Call from 'C:\Users\sofni\Desktop\cooler_website_react\my-project\src\call.svg'
 export default function Nav() {
   return (
     <div className='m-0 p-0 w-screen h-full overflow-hidden'>
+    <img src={Logo} alt="" />
     <div className='flex justify-between bg-blue-900'>
         <div>
             LOGO
